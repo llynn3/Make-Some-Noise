@@ -11,7 +11,7 @@ This app allows users to play music based on their music search preference on an
 
 ## API and Data Sample
 
-The primary API will be Spotify. This allows to access music catalogs, manage libraries, get recommendations and more. Not sure if it will return any album pictures.
+The primary API will be TasteDive. This allows to access music artist info, songs, videos and recommendations of similar artists. Not sure if it will return any album pictures.
 
 ## API Data Sample 
 
@@ -49,7 +49,7 @@ yID: "dPhwbZBvW2o"
 
 #### MVP 
 
--	Axios call on Spotify API
+-	Axios call on TasteDive API
 -	Use flexbox for responsive design
 -	Have songs, artists and maybe some information of the artist when doing a search
 -	Clear query box when creating a new search
@@ -59,7 +59,7 @@ yID: "dPhwbZBvW2o"
 #### PostMVP  
 
 - Possibly add albums covers/pictures? 
-- Another list for additional 
+- Another list for additional recommendations of artists?
 
 
 ## Priority Matrix
