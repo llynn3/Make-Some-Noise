@@ -53,7 +53,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Event Listeners | H | 4hrs |
 | Wireframes | H | 3hrs |
 | General CSS | M | 3hrs |
-| Responsive CSS | H 4hrs | 
+| Responsive CSS | H | 4hrs | 
 | Debugging | M | 3hrs |
 | Total | H | 27hrs| 
 
