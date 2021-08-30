@@ -13,9 +13,13 @@ This app allows users to play music based on their music search preference on an
 
 The primary API will be Spotify. This allows to access music catalogs, manage libraries, get recommendations and more. Not sure if it will return any album pictures.
 
-## Wireframes
+## API Data Sample 
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
+
+## Wireframes
+![wireframes](https://user-images.githubusercontent.com/88290507/131415571-25a61ad1-284c-4106-999a-5fbf46886501.jpg)
+
 
 ### MVP/PostMVP
 
@@ -33,10 +37,9 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 - Possibly add albums covers/pictures? 
 - Another list for additional 
 
-## Priority Matrix
- 
-![image](https://user-images.githubusercontent.com/88290507/131406364-7d1ed3c4-f344-492c-9753-cb3597858d2d.png)
 
+## Priority Matrix
+![priority matrix](https://user-images.githubusercontent.com/88290507/131415543-771510f0-4756-4f74-b08c-a572ae1ecff8.jpg)
 
 
 ## Timeframes
@@ -56,7 +59,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Flexbox | M | 2hrs |
 | Responsive CSS | H | 4hrs | 
 | Text style/colors | L | 2hrs |
-| Total | H | 23hrs| 
+| Image and video formatting/import | H | 3hrs |
+| Total | H | 26hrs| 
 
 ## Code Snippet
 
