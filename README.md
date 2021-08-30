@@ -81,10 +81,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Submit Button | M | 2hrs |
 | Wireframes | H | 3hrs |
 | Flexbox | M | 2hrs |
-| Responsive CSS | H | 4hrs | 
+| Responsive CSS | H | 3hrs | 
 | Text style/colors | L | 2hrs |
 | Image and video formatting/import | H | 3hrs |
-| Total | H | 26hrs| 
+| Total | H | 25hrs| 
 
 ## Code Snippet
 
