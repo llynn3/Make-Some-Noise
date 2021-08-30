@@ -42,7 +42,7 @@ yID: "dPhwbZBvW2o"
 ```
 
 ## Wireframes
-![wireframes](https://user-images.githubusercontent.com/88290507/131418815-fba925ae-f83d-4171-be86-5b2fe5e7195f.jpg)
+![wireframes (1)](https://user-images.githubusercontent.com/88290507/131418865-04e3869d-98c9-4d1c-9f1f-8cf921f8da1b.jpg)
 
 
 ### MVP/PostMVP
