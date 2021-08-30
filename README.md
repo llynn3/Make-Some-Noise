@@ -35,7 +35,8 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ## Priority Matrix
  
-[priority matrix.pdf](https://github.com/llynn3/Make-Some-Noise/files/7079593/priority.matrix.pdf)
+![image](https://user-images.githubusercontent.com/88290507/131406364-7d1ed3c4-f344-492c-9753-cb3597858d2d.png)
+
 
 
 ## Timeframes
