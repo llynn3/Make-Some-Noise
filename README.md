@@ -17,6 +17,7 @@ The primary API will be Spotify. This allows to access music catalogs, manage li
 
 API Sample: https://tastedive.com/api/similar?info=1&q=usher&k=422965-project-P86D3GKY
 
+```
 {
 Similar: {
 Info: [
@@ -38,6 +39,7 @@ wUrl: "http://en.wikipedia.org/wiki/Chris_Brown_(composer)",
 yUrl: "https://www.youtube-nocookie.com/embed/dPhwbZBvW2o",
 yID: "dPhwbZBvW2o"
 },
+```
 
 ## Wireframes
 ![wireframes](https://user-images.githubusercontent.com/88290507/131415571-25a61ad1-284c-4106-999a-5fbf46886501.jpg)
