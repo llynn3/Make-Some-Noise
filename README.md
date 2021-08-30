@@ -42,7 +42,7 @@ yID: "dPhwbZBvW2o"
 ```
 
 ## Wireframes
-![wireframes](https://user-images.githubusercontent.com/88290507/131415571-25a61ad1-284c-4106-999a-5fbf46886501.jpg)
+![wireframes](https://user-images.githubusercontent.com/88290507/131418815-fba925ae-f83d-4171-be86-5b2fe5e7195f.jpg)
 
 
 ### MVP/PostMVP
@@ -67,10 +67,6 @@ yID: "dPhwbZBvW2o"
 
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Students usally put in around 40+ hours into their project 1.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
