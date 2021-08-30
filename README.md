@@ -15,7 +15,29 @@ The primary API will be Spotify. This allows to access music catalogs, manage li
 
 ## API Data Sample 
 
+API Sample: https://tastedive.com/api/similar?info=1&q=usher&k=422965-project-P86D3GKY
 
+{
+Similar: {
+Info: [
+{
+Name: "Usher",
+Type: "music",
+wTeaser: "Usher Raymond IV (born October 14, 1978) is an American singer, songwriter, actor, businessman, and dancer. He was born in Dallas, Texas, but raised in Chattanooga, Tennessee, until moving to Atlanta, Georgia. At the age of 12, his mother put him in local singing competitions before catching the attention of a music A&R from LaFace Records. He released his self-titled debut album Usher (1994), and rose to fame in the late 1990s with the release of his second album My Way (1997). It spawned his first U.S. Billboard Hot 100 number-one single "Nice & Slow", and the top-two singles "You Make Me Wanna..." and "My Way". His third album, 8701 (2001), produced the number-one singles "U Remind Me" and "U Got It Bad", as well as the top-three single "U Don't Have to Call". It sold eight million copies worldwide and won his first two Grammy Awards as Best Male R&B Vocal Performance in 2002 and 2003.",
+wUrl: "http://en.wikipedia.org/wiki/Usher_(entertainer)",
+yUrl: "https://www.youtube-nocookie.com/embed/o3IWTfcks4k",
+yID: "o3IWTfcks4k"
+}
+],
+Results: [
+{
+Name: "Chris Brown",
+Type: "music",
+wTeaser: "Chris Brown (born 1953) is an American composer, pianist and electronic musician, who creates music for acoustic instruments with interactive electronics, for computer networks, and for improvising ensembles. He was active early in his career as an inventor and builder of electroacoustic instruments; he has also performed widely as an improviser and pianist with groups as "Room" and the "Glenn Spearman Double Trio." In 1986 he co-founded the pioneering computer network music ensemble "The Hub". He is also known for his recorded performances of music by Henry Cowell, Luc Ferrari, and John Zorn. He has received commissions from the Berkeley Symphony, the Rova Saxophone Quartet, the Abel-Steinberg-Winant Trio, the Gerbode Foundation, the Phonos Foundation and the Creative Work Fund. His recent music includes the poly-rhythm installation "Talking Drum", the "Inventions" series for computers and interactive performers, and the radio performance "Transmissions" series, with composer Guillermo Galindo.",
+wUrl: "http://en.wikipedia.org/wiki/Chris_Brown_(composer)",
+yUrl: "https://www.youtube-nocookie.com/embed/dPhwbZBvW2o",
+yID: "dPhwbZBvW2o"
+},
 
 ## Wireframes
 ![wireframes](https://user-images.githubusercontent.com/88290507/131415571-25a61ad1-284c-4106-999a-5fbf46886501.jpg)
