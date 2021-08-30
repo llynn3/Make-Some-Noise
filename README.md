@@ -47,15 +47,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3hrs |  
-| Working with API | H | 4hrs|  | 
-| Initial HTML | M | 3hrs |
-| Event Listeners | H | 4hrs |
+| Adding Form | H | 3hrs|  
+| Calling/requests | H | 2hrs|  
+| Debugging | H | 2hrs | 
+| Display Content | M | 3hrs |
+| Submit Button | M | 2hrs |
 | Wireframes | H | 3hrs |
-| General CSS | M | 3hrs |
+| Flexbox | M | 2hrs |
 | Responsive CSS | H | 4hrs | 
-| Debugging | M | 3hrs |
-| Total | H | 27hrs| 
+| Text style/colors | L | 2hrs |
+| Total | H | 23hrs| 
 
 ## Code Snippet
 
