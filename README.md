@@ -3,7 +3,7 @@
 
 ## Project Name
 
-Make Some Noise
+Turn It Up
 
 ## Project Description
 
