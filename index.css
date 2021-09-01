@@ -11,12 +11,20 @@ span {
     font-style: italic;
 }
 
+.artist-list {
+    font-family: 'Bree Serif', sans-serif;
+    grid-area: A;
+    text-align: center;
+}
+
 .parent {
     display: grid;
     grid-template-areas:
     "H H H H"
-    "L L R R"
-    "L L R R"
+    "L L L L"
+    "R R R R"
+    "N N N N"
+    "A A A A"
     "F F F F"
 }
 
@@ -47,10 +55,11 @@ span {
     align-items: center;
     padding: 10px;
     margin: 10px;
-    grid-area: F;
+    grid-area: N;
   }
 
 #blank {
     height: 30px;
     font-size: 14pt;
+    grid-area: N;
 }
