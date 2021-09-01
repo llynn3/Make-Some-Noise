@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://imgur.com/3m6d7Qt.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+span {
+    font-style: italic;
+}
+
+.parent {
+    display: grid;
+    grid-template-areas:
+    "H H H H"
+    "L L R R"
+    "L L R R"
+    "F F F F"
+}
+
+#one {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    grid-area: H;
+}
+
+#two {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    grid-area: L;
+}
+
+#three {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    grid-area: R;
+}
+
+#four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    grid-area: F;
+  }
+
+#blank {
+    height: 30px;
+    font-size: 14pt;
+}
