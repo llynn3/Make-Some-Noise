@@ -36,6 +36,7 @@ const resultsAndInfo = async (event) => {
         const url = `http://cors-lite.herokuapp.com/https://tastedive.com/api/similar?info=1&q=${newArtist}&k=422965-project-P86D3GKY`;
         const response = await axios.get(url);
         const dropdownArtists = response.data.Similar.Info;
+        dropdownContainer.innerHTML = "";
 
         dropdownArtists.forEach((artist) => {
 
@@ -51,8 +52,8 @@ const resultsAndInfo = async (event) => {
             const artistWTeaser = document.createElement("p");
             artistWTeaser.innerText = artist.wTeaser;
             infoContainer.appendChild(artistWTeaser);
-            const artistYUrl = document.createElement("p");
-            artistYUrl.innerHTML = artist.yUrl;
+            const artistYUrl = document.createElement("iframe");
+            artistYUrl.src = artist.yUrl;
             infoContainer.appendChild(artistYUrl);
 
         });
@@ -65,3 +66,6 @@ const resultsAndInfo = async (event) => {
 
 button.addEventListener("click", getArtistResults);
 dropdown.addEventListener("change", resultsAndInfo);
+
+// const child = document.querySelector(".child");
+// child.placeholder="artist name";

@@ -2,8 +2,11 @@ body {
     background-image: url('https://imgur.com/3m6d7Qt.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
 div {
+    align-content: center;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -48,6 +51,7 @@ span {
     font-size: 30px;
     text-align: center;
     grid-area: R;
+    padding: 20px;
 }
 
 #four {
@@ -65,6 +69,13 @@ span {
     grid-area: N;
 }
 
-/* #info-container {
+#info-container {
+    text-align: center;
+}
 
-} */
+@media screen and (max-width: 450px) {
+    div {
+        background-color: rosybrown;
+        font-family: arial;
+    }
+}
