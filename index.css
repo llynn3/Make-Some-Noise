@@ -1,3 +1,15 @@
+a:link a:visited {
+    color: lightpink;
+    font-size: 20px;
+}
+
+a:hover, a:active {
+    background-color: lightpink;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
 body {
     background-image: url('https://imgur.com/3m6d7Qt.jpeg');
     background-repeat: no-repeat;
@@ -10,8 +22,24 @@ div {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+header {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    color: lightpink;
+    display: flex;
+    font-family: 'Luckiest Guy', sans-serif;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+
 span {
-    font-style: italic;
+    font-weight: bold;
 }
 
 .artist-list {
@@ -25,8 +53,8 @@ span {
     display: grid;
     grid-template-areas:
     "H H H H"
-    "L L L L"
-    "R R R R"
+    "L L R R"
+    "L L R R"
     "N N N N"
     "A A A A"
     "F F F F"
@@ -51,7 +79,6 @@ span {
     font-size: 30px;
     text-align: center;
     grid-area: R;
-    padding: 20px;
 }
 
 #four {
@@ -70,6 +97,7 @@ span {
 }
 
 #info-container {
+    font-family: 'Kaisei HarunoUmi', sans-serif;
     text-align: center;
 }
 
