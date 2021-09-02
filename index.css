@@ -1,3 +1,5 @@
+* {
+}
 a:link a:visited {
     color: lightpink;
     font-size: 20px;
@@ -14,8 +16,9 @@ body {
     background-image: url('https://imgur.com/3m6d7Qt.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: auto;
+    padding: 5px;
 }
 div {
     align-content: center;
@@ -44,8 +47,8 @@ span {
 
 .artist-list {
     font-family: 'Bree Serif', sans-serif;
-    grid-area: A;
     text-align: center;
+    grid-area: A;
 }
 
 
@@ -53,15 +56,15 @@ span {
     display: grid;
     grid-template-areas:
     "H H H H"
-    "L L R R"
-    "L L R R"
+    "L L L L"
+    "R R R R"
     "N N N N"
     "A A A A"
     "F F F F"
 }
 
 #one {
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 40px;
     text-align: center;
     grid-area: H;
@@ -94,6 +97,7 @@ span {
     height: 30px;
     font-size: 14pt;
     grid-area: N;
+    text-align: center;
 }
 
 #info-container {
