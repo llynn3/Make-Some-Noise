@@ -63,6 +63,5 @@ const resultsAndInfo = async (event) => {
 }
 
 
-
 button.addEventListener("click", getArtistResults);
 dropdown.addEventListener("change", resultsAndInfo);
