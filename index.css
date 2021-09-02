@@ -17,6 +17,7 @@ span {
     text-align: center;
 }
 
+
 .parent {
     display: grid;
     grid-template-areas:
