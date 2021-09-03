@@ -1,13 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 a:link a:visited {
     color: lightpink;
     font-size: 20px;
 }
 
 a:hover, a:active {
-    background-color: lightpink;
-    color: white;
-    padding: 10px;
-    font-size: 15px;
+    background-color: #666;
+    color: lightpink;
 }
 
 body {
@@ -85,6 +87,60 @@ span {
     font-size: 14pt;
     grid-area: A;
     text-align: center;
+}
+
+#contact {
+    color: lightpink;
+}
+
+#contact:hover, active {
+    background-color: #666;
+}
+
+#contactForm {
+    display: none;
+
+    background-color: white;
+    border: 5px solid #88d8c0;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    width: 450px;
+}
+
+#form {
+    font-family: 'Raleway';
+    font-weight: inherit;
+    font-size: inherit;
+    margin: .8em auto;
+
+    display: block;
+    width: 300px;
+    padding: .4em;
+}
+
+textarea {
+    font-family: 'Raleway';
+    font-weight: inherit;
+    font-size: inherit;
+    margin: .8em auto;
+
+    display: block;
+    height: 80px;
+    width: 300px;
+    padding: .4em;
+}
+
+.submitButton {
+    background: lightpink;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px; 
+    width: 150px;
 }
 
 #info-container {

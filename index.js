@@ -70,19 +70,14 @@ $(function() {
       $('#contactForm').fadeToggle();
     })
     $(document).mouseup(function (e) {
-      var container = $("#contactForm");
+      const container = $("#contactForm");
   
       if (!container.is(e.target)
           && container.has(e.target).length === 0)
-      {
           container.fadeOut();
-      }
+      })
     });
-    
-  });
+
 
 button.addEventListener("click", getArtistResults);
 dropdown.addEventListener("change", resultsAndInfo);
-
-// const child = document.querySelector(".child");
-// child.placeholder="artist name";
