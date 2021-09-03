@@ -48,6 +48,14 @@ span {
     grid-area: A;
 }
 
+.footer {
+    display: flex;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    grid-area: F;
+    padding: 15px;
+}
 
 .parent {
     display: grid;
