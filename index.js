@@ -14,6 +14,7 @@ const getArtistResults = async () => {
         const tastediveURL = `https://cors-lite.herokuapp.com/https://tastedive.com/api/similar?info=1&q=${artistName}&k=422965-project-P86D3GKY`
         const response = await axios.get(tastediveURL);
         const artists = response.data.Similar.Results
+        inputEl.value = "";
 
         const artistListEl = document.querySelector(".artist-list")
 
@@ -62,6 +63,23 @@ const resultsAndInfo = async (event) => {
         console.error(error);
     }
 }
+
+$(function() {
+
+    $('#contact').click(function() {
+      $('#contactForm').fadeToggle();
+    })
+    $(document).mouseup(function (e) {
+      var container = $("#contactForm");
+  
+      if (!container.is(e.target)
+          && container.has(e.target).length === 0)
+      {
+          container.fadeOut();
+      }
+    });
+    
+  });
 
 button.addEventListener("click", getArtistResults);
 dropdown.addEventListener("change", resultsAndInfo);
