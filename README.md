@@ -3,7 +3,7 @@
 
 ## Project Name
 
-Turn It Up
+What An Artist
 
 ## Project Description
 
