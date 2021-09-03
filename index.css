@@ -150,8 +150,10 @@ textarea {
 }
 
 @media screen and (max-width: 450px) {
-    div {
-        background-color: rosybrown;
+    * {
         font-family: arial;
+    }
+    body {
+        background-color: grey;
     }
 }
